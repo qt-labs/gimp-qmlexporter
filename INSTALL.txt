@@ -1,0 +1,15 @@
+INSTALLATION
+To use this plugin, make sure you have a recent version of GIMP 2 installed.
+
+- Copy the file qmlexporter.py to ~/.gimp/plug-ins
+- Run chmod u+rx on the file to make sure it is executable
+- Run or restart gimp
+
+The exporter should now show up at the bottom of the File menu.
+When you run it, it will ask for the element name and the directory
+to dump the output consisting of a .qml file and a series of .png files.
+
+Note that names are preserved from your layer names, but # and space are
+replaced by underscores to make them usable id tags. Offset, size, ordering
+and opacity are currently preserved.
+
