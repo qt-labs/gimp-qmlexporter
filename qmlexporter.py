@@ -77,7 +77,7 @@ def export_qml(image, qmlname, path, flatten):
 	    os.mkdir(imagepath)
 
 	f = open(qmlfilename, 'w')
-        f.write('import Qt 4.6\n')
+        f.write('import Qt 4.7\n')
         f.write('Rectangle {\n')
 	copy = image.duplicate()
 	
